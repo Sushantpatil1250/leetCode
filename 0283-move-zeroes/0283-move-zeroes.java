@@ -13,8 +13,6 @@ class Solution {
                 j++;
             }
         }
-        for(int x:nums){
-            System.out.print(x);
-        }
+        
     }
 }
