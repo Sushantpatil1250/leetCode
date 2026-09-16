@@ -28,8 +28,8 @@ class Solution {
 
         }
         if(c ==1){r.append(1);}
-        r.reverse();
-        return r.toString();
+        // r.reverse();
+        return r.reverse().toString();
         
     }
 }
