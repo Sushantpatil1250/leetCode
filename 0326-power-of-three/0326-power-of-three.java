@@ -17,8 +17,9 @@ class Solution {
             n = n/3;
         }
 
-        if( n == 1) return true;
-        else return false;
+        // if( n == 1) return true;
+        // else return false;
+        return 1 ==n;
 
     }
 }
