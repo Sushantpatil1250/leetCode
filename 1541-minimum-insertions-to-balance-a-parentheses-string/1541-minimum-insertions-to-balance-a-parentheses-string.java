@@ -27,7 +27,6 @@ class Solution {
         // return insertions + 2 * open;
         int count = 0;
         int res =0;
-        int len = s.length();
         int need =0;
 
         for(int ch :s.toCharArray()){
