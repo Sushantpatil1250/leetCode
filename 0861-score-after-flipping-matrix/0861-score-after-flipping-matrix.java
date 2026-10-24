@@ -23,7 +23,7 @@ class Solution {
                  
             }
         }
-       for (int i = 1; i < c; i++) {
+        for (int i = 1; i < c; i++) {
     int ones = 0;
 
     for (int j = 0; j < r; j++) {
