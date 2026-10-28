@@ -34,7 +34,7 @@ class Solution {
                 }
                 t.next = f;
                 if(f != null) f.prev = t;
-                temp =f;
+                // temp =f;
             }
         }
         return head;
