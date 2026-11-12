@@ -8,7 +8,7 @@ class Solution {
 
         for(int i = n-2 ; i>=0 ; i--){
             int count =0 ; 
-            while(st.size() > 0 && st.peek() <arr[i]){
+            while(st.size() > 0 && st.peek() <=arr[i]){
                 st.pop();
                 count++;
             }
